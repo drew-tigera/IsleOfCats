@@ -21,7 +21,9 @@ https://kubernetes.io/docs/tasks/tools/install-minikube/
 3. Once Minikube is up and running - it could take a few minutes depending on how fast your network is - run the following command:
 `minikube status`
 You should see a result like this:
-`host: Running
-kubelet: Running
-apiserver: Running
-kubectl: Correctly Configured: pointing to minikube-vm at 172.17.17.108`
+
+`host: Running`
+`kubelet: Running`
+`apiserver: Running`
+`kubectl: Correctly Configured: pointing to minikube-vm at 172.17.17.108`
+
