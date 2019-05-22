@@ -29,7 +29,7 @@ Minikube should be listed as running, also make of note of the IP address assign
 
 That will install the latest version of Calico. Give it a few minutes to install and settle. 
 
-`kubectl get nodes --all-namespaces` to verify all the nodes are ready.
+`kubectl get pods --all-namespaces` to verify all the nodes are ready.
 
 5. Once all the Calico nodes are running we are ready to do the following tutorial:
 https://docs.projectcalico.org/v3.7/security/stars-policy/
